@@ -34,6 +34,10 @@ local.properties
 *.keystore
 !debug.keystore
 
+android/gradle.properties
+android/app
+android/app/my-release-key.keystore
+
 # node.js
 #
 node_modules/
