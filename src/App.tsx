@@ -1,11 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { currencyByRupee } from './constants'
+import CurrencyBtn from './components/CurrencyBtn'
+
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <>
+      <StatusBar />
+      <View>
+        <Text>App</Text>
+      </View>
+    </>
   )
 }
 
